@@ -965,138 +965,170 @@
                 alignItems: {
                   xl: "center",
                 },
-                children: (0, n.jsxs)(c, {
-                  variants: _,
-                  spacing: 6,
-                  w: "100",
-                  children: [
-                    (0, n.jsx)(l, {
-                      variants: j,
-                      delay: 1,
-                      variant: "accent",
-                      fontWeight: "light",
-                      children: "Ohh you found me? Hello there! I am",
-                    }),
-                    (0, n.jsx)(r, {
-                      as: "h1",
-                      size: "2xl",
-                      paddingRight: {
-                        lg: "20",
-                      },
-                      textTransform: "uppercase",
-                      variants: j,
-                      children: "Ansari",
-                    }),
-                    (0, n.jsx)(r, {
-                      as: "h2",
-                      size: i,
-                      variant: "emphasis",
-                      className: pe().marginTopForce,
-                      textTransform: "uppercase",
-                      variants: v,
-                      whileHover: {
-                        scale: 1.1,
-                      },
-                      whileTap: {
-                        scale: 0.9,
-                      },
-                      children: "Irfan",
-                    }),
-                    (0, n.jsxs)(l, {
-                      colorScheme: "gray",
-                      fontSize: "smaller",
-                      className: pe().marginTopForce,
-                      variants: j,
-                      children: ["   ", "A full stack web developer"],
-                    }),
-                    (0, n.jsx)(r, {
-                      as: "h3",
-                      size: "md",
-                      variant: "emphasis",
-                      className: pe().marginTopSmall,
-                      variants: j,
-                      children: "Computer Science Undergrad",
-                    }),
-                    (0, n.jsxs)(l, {
-                      variant: "description",
-                      fontSize: "small",
-                      paddingRight: {
-                        lg: "12",
-                      },
-                      variants: j,
-                      maxWidth: {
-                        base: "100%",
-                        lg: "80%",
-                      },
-                      children: [
-                        "Hey! How nice of you to look at my personal site,",
-                        (0, n.jsxs)(le.x, {
-                          variant: "emphasis",
-                          as: "span",
-                          children: [" ", "Thank you!"],
-                        }),
-                        (0, n.jsx)("br", {}),
-                        "I am a self-taught passionate full stack developer from India, currently in my final year of",
-                        " ",
-                        (0, n.jsx)(le.x, {
-                          as: "span",
-                          variant: "emphasis",
-                          children: (0, n.jsx)("b", {
-                            children:
-                              "bachelors in computer science and engineering ",
-                          }),
-                        }),
-                      ],
-                    }),
-                    (0, n.jsx)(d, {
-                      size: "lg",
-                      variant: "outline",
-                      borderWidth: "1px",
-                      borderRadius: "0",
-                      fontWeight: "normal",
-                      fontSize: "sm",
-                      width: "120px",
-                      variants: w,
-                      as: "a",
-                      href: "mailto:ansarimdirfan2004@gmail.com",
-                      target: "_blank",
-                      whileHover: {
-                        scale: 1.1,
-                      },
-                      whileTap: {
-                        scale: 0.9,
-                      },
-                      children: "Get in touch!",
-                    }),
-                    (0, n.jsx)(h, {
-                      d: "flex",
-                      variants: w,
-                      children: xe.map(function (e) {
-                        return (0, n.jsx)(
-                          ce.r,
-                          {
-                            variant: "description",
-                            "aria-label": e.label,
-                            rel: "noreferrer",
-                            width: 8,
-                            href: e.href,
-                            target: "_blank",
-                            _focus: {
-                              boxShadow: "none",
-                            },
-                            children: (0, n.jsx)(de.J, {
-                              w: 6,
-                              h: 6,
-                              as: e.icon,
-                              color: "currentColor",
-                            }),
-                          },
-                          e.label
-                        );
+                children: 
+                  (0, n.jsxs)(c, {
+                    variants: _,
+                    spacing: 6,
+                    w: "100",
+                    children: [
+                      (0, n.jsx)(l, {
+                        variants: j,
+                        delay: 1,
+                        variant: "accent",
+                        fontWeight: "light",
+                        children: "Ohh you found me? Hello there! I am",
                       }),
-                    }),
-                  ],
-                }),
+                      (0, n.jsx)(r, {
+                        as: "h1",
+                        size: "2xl",
+                        paddingRight: {
+                          lg: "20",
+                        },
+                        textTransform: "uppercase",
+                        variants: j,
+                        children: "Ansari",
+                      }),
+                      (0, n.jsx)(r, {
+                        as: "h2",
+                        size: i,
+                        variant: "emphasis",
+                        className: pe().marginTopForce,
+                        textTransform: "uppercase",
+                        variants: v,
+                        whileHover: {
+                          scale: 1.1,
+                        },
+                        whileTap: {
+                          scale: 0.9,
+                        },
+                        children: "Irfan",
+                      }),
+                      (0, n.jsxs)(l, {
+                        colorScheme: "gray",
+                        fontSize: "smaller",
+                        className: pe().marginTopForce,
+                        variants: j,
+                        children: ["   ", "A full stack web developer"],
+                      }),
+                      (0, n.jsx)(r, {
+                        as: "h3",
+                        size: "md",
+                        variant: "emphasis",
+                        className: pe().marginTopSmall,
+                        variants: j,
+                        children: "Computer Science Undergrad",
+                      }),
+                      (0, n.jsxs)(l, {
+                        variant: "description",
+                        fontSize: "small",
+                        paddingRight: {
+                          lg: "12",
+                        },
+                        variants: j,
+                        maxWidth: {
+                          base: "100%",
+                          lg: "80%",
+                        },
+                        children: [
+                          "Hey! How nice of you to look at my personal site,",
+                          (0, n.jsxs)(le.x, {
+                            variant: "emphasis",
+                            as: "span",
+                            children: [" ", "Thank you!"],
+                          }),
+                          (0, n.jsx)("br", {}),
+                          "I am a self-taught passionate full stack developer from India, currently in my final year of",
+                          " ",
+                          (0, n.jsx)(le.x, {
+                            as: "span",
+                            variant: "emphasis",
+                            children: (0, n.jsx)("b", {
+                              children:
+                                "bachelors in computer science and engineering ",
+                            }),
+                          }),
+                        ],
+                      }),
+                      // Adjusted the layout of the buttons to make them closer to each other
+                      (0, n.jsx)("div", {
+                        style: {
+                          display: "flex",
+                          justifyContent: "flex-start", // Align buttons to the left
+                          gap: "15px",  // Add a small gap between the buttons
+                          width: "100%", 
+                        },
+                        children: [
+                          (0, n.jsx)(d, {
+                            size: "lg",
+                            variant: "outline",
+                            borderWidth: "1px",
+                            borderRadius: "0",
+                            fontWeight: "normal",
+                            fontSize: "sm",
+                            width: "120px",
+                            variants: w,
+                            as: "a",
+                            href: "mailto:xyz@gmail.com",
+                            target: "_blank",
+                            whileHover: {
+                              scale: 1.1,
+                            },
+                            whileTap: {
+                              scale: 0.9,
+                            },
+                            children: "Get in touch!",
+                          }),
+                          (0, n.jsx)(d, {
+                            size: "lg",
+                            variant: "outline",
+                            borderWidth: "1px",
+                            borderRadius: "0",
+                            fontWeight: "normal",
+                            fontSize: "sm",
+                            width: "120px",
+                            variants: w,
+                            as: "a",
+                            href: "https://drive.google.com/file/d/1Czqr39Q-GBkWOxIv7rvmXvVKXzgHJkXS/view?usp=sharing",
+                            target: "_blank",
+                            whileHover: {
+                              scale: 1.1,
+                            },
+                            whileTap: {
+                              scale: 0.9,
+                            },
+                            children: "View Resume",
+                          }),
+                        ],
+                      }),
+                      (0, n.jsx)(h, {
+                        d: "flex",
+                        variants: w,
+                        children: xe.map(function (e) {
+                          return (0, n.jsx)(
+                            ce.r,
+                            {
+                              variant: "description",
+                              "aria-label": e.label,
+                              rel: "noreferrer",
+                              width: 8,
+                              href: e.href,
+                              target: "_blank",
+                              _focus: {
+                                boxShadow: "none",
+                              },
+                              children: (0, n.jsx)(de.J, {
+                                w: 6,
+                                h: 6,
+                                as: e.icon,
+                                color: "currentColor",
+                              }),
+                            },
+                            e.label
+                          );
+                        }),
+                      }),
+                    ],
+                  }),
               }),
             ],
           });
